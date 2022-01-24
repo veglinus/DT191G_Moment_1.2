@@ -1,4 +1,42 @@
 ﻿@page
+@using System.Globalization
 @model Moment_1.Pages.RazorModel
 @{
+    ViewData["Title"] = "Razor";
 }
+
+<div>
+
+    <h1>Razor</h1>
+
+    <h2>Information</h2>
+
+    @{
+        DateTime now = DateTime.Now;
+        string timestamp = now.ToString();
+    }
+    <p>Datum/klockslag: @timestamp</p>
+
+    @{
+        string weekday = now.ToString("dddd", new CultureInfo("en-GB"));
+        string output = "Idag är det inte måndag.";
+
+        if (weekday == "Monday") {
+            output = "Idag är det måndag.";
+        }
+    }
+    <p>@output</p>
+
+
+    @{
+        string[] courses = {"DT057G, Webbutveckling I", "DT093G, Webbutveckling II", "DT173G, Webbutveckling III"};
+    }
+    <ul>
+        @foreach (var course in courses) {
+            <li>@course</li>
+        }
+    </ul>
+
+
+
+</div>

@@ -15,6 +15,11 @@ html {
 
 body {
   margin-bottom: 60px;
+  background-color: #e9cecb;
+  color: black;
+}
+h1, h2, h3, h4, h5, h6 {
+  color: #3a458c;
 }
 
 header {
@@ -27,9 +32,14 @@ header {
   margin-left: 3%;
   margin-right: 3%;
 }
-
+#hleft a img {
+  width: auto;
+  height: 170px;
+}
 #hright {
   padding-top: 30px;
+  font-style: italic; 
+  color: gray;
 }
 
 #mainmenu {
@@ -37,20 +47,29 @@ header {
 }
 #mainmenu ul li a {
   padding: 5%;
-  border: 1px solid black;
+
+  background-color: #3a458c;
+
+  border-radius: 4px;
+  margin-top: 3%;
+  color: white!important;
 }
+
 
 .bodycontainer {
   display: flex;
 }
 .bodycontainer #mainmenu {
-  width: 20%;
+  width: 15%;
+  margin-left: 2%;
 }
 .bodycontainer main {
-  width: 70%;
-  margin-left: 5%;
+  width: 65%;
+  margin-left: 3%;
   margin-right: 5%;
 }
 
 
-
+footer {
+  text-align: center;
+}
