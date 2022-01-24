@@ -55,21 +55,23 @@ header {
   color: white!important;
 }
 
-
-.bodycontainer {
-  display: flex;
-}
-.bodycontainer #mainmenu {
-  width: 15%;
-  margin-left: 2%;
-}
-.bodycontainer main {
-  width: 65%;
-  margin-left: 3%;
-  margin-right: 5%;
-}
-
-
 footer {
   text-align: center;
+}
+
+
+@media only screen and (min-width: 768px) {
+  .bodycontainer {
+    display: flex;
+  }
+  .bodycontainer #mainmenu {
+    width: 15%;
+    margin-left: 2%;
+  }
+  .bodycontainer main {
+    width: 65%;
+    margin-left: 3%;
+    margin-right: 5%;
+  }
+
 }
