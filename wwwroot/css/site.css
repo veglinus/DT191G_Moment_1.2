@@ -16,3 +16,41 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+header {
+  justify-content: space-between;
+  display: flex;
+
+  border: 1px solid black
+}
+#hleft, #hright {
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+#hright {
+  padding-top: 30px;
+}
+
+#mainmenu {
+  text-align: center;
+}
+#mainmenu ul li a {
+  padding: 5%;
+  border: 1px solid black;
+}
+
+.bodycontainer {
+  display: flex;
+}
+.bodycontainer #mainmenu {
+  width: 20%;
+}
+.bodycontainer main {
+  width: 70%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+
+
