@@ -12,9 +12,11 @@ body {
   background-color: #e9cecb;
   color: black;
 }
+
 main {
   max-width: 1000px;
 }
+
 h1, h2, h3, h4, h5, h6 {
   text-align: center;
   color: #3a458c;
@@ -26,23 +28,27 @@ header {
 
   border: 1px solid black
 }
+
 #hleft, #hright {
   margin-left: 3%;
   margin-right: 3%;
 }
+
 #hleft a img {
   width: auto;
   height: 170px;
 }
+
 #hright {
   padding-top: 30px;
-  font-style: italic; 
+  font-style: italic;
   color: gray;
 }
 
 #mainmenu {
   text-align: center;
 }
+
 #mainmenu ul li a {
   padding: 5%;
 
@@ -50,7 +56,7 @@ header {
 
   border-radius: 4px;
   margin-top: 3%;
-  color: white!important;
+  color: white !important;
 }
 
 footer {
@@ -82,13 +88,16 @@ footer {
   h1, h2, h3, h4, h5, h6 {
     text-align: left;
   }
+
   .bodycontainer {
     display: flex;
   }
+
   .bodycontainer #mainmenu {
     width: 15%;
     margin-left: 2%;
   }
+
   .bodycontainer main {
     width: 65%;
     margin-left: 3%;
@@ -98,11 +107,13 @@ footer {
   #mainmenu ul {
     display: block;
   }
+
   #mainmenu ul li {
     width: 100%;
     margin-bottom: 10%;
 
   }
+
   #mainmenu ul li a {
     padding-top: 10%;
     padding-bottom: 10%;
