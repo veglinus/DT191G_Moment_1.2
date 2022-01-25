@@ -17,21 +17,21 @@
         </div>
 
         <div id="hright">
-            <span>Dagens datum är: @DateTime.Now</span>
+            <span>Dagens datum är: @DateTime.Now.ToShortDateString()</span>
         </div>
     </header>
 
     <div class="bodycontainer">
 
         <nav id="mainmenu">
-            <ul class="navbar-nav flex-grow-1">
-                <li class="nav-item">
+            <ul>
+                <li>
                     <a class="nav-link text-dark" asp-area="" asp-page="/Index">Home</a>
                 </li>
-                <li class="nav-item">
+                <li>
                     <a class="nav-link text-dark" asp-area="" asp-page="/Razor">Razor</a>
                 </li>
-                <li class="nav-item">
+                <li>
                     <a class="nav-link text-dark" asp-area="" asp-page="/Om">Om sidan</a>
                 </li>
             </ul>

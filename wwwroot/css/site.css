@@ -1,11 +1,5 @@
 html {
-  font-size: 14px;
-}
-
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+  font-size: 17px;
 }
 
 html {
@@ -18,7 +12,11 @@ body {
   background-color: #e9cecb;
   color: black;
 }
+main {
+  max-width: 1000px;
+}
 h1, h2, h3, h4, h5, h6 {
+  text-align: center;
   color: #3a458c;
 }
 
@@ -59,8 +57,31 @@ footer {
   text-align: center;
 }
 
+#mainmenu ul {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+#mainmenu ul li {
+  flex: 33%;
+
+  margin-left: 1%;
+  margin-right: 1%;
+
+  width: 20%;
+}
+
+
+
 
 @media only screen and (min-width: 768px) {
+
+
+  h1, h2, h3, h4, h5, h6 {
+    text-align: left;
+  }
   .bodycontainer {
     display: flex;
   }
@@ -74,4 +95,16 @@ footer {
     margin-right: 5%;
   }
 
+  #mainmenu ul {
+    display: block;
+  }
+  #mainmenu ul li {
+    width: 100%;
+    margin-bottom: 10%;
+
+  }
+  #mainmenu ul li a {
+    padding-top: 10%;
+    padding-bottom: 10%;
+  }
 }
